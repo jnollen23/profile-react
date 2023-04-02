@@ -1,0 +1,95 @@
+:root{
+  --background-color:#282c34;
+  --font-color:white;
+  --link-color:#61dafb;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App{
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+.App-link {
+  color: var(--link-color);
+}
+
+.navlink{
+  padding-right: 5px; 
+  color:var(--link-color);
+  text-decoration: none;
+}
+
+.header{
+  font-size:large;
+  height:calc(100vh - 44px);
+}
+
+.brand{
+  margin-left:15px;
+  margin-right:10px;
+  font-size:x-large;
+  font-family: Rubik;
+  min-height:56px;
+}
+
+.profile-pic{
+  width: 200px;
+  height: 350px;
+  display:inline;
+}
+
+.logo-profiles{
+  width: 40px;
+  height: 40px;
+  margin-right:5px;
+}
+
+.footer{
+  display:flex;
+  justify-items: center;
+  height:44px;
+}
+
+.footer-center{
+  justify-items: center;
+  display:flex;
+  margin-right:5px;
+}
+
+.app-body{
+  min-height:calc(100vh - 80px);
+  overflow:hidden;
+}
+
+.repo-img{
+  max-width: 75%;
+  height: auto;
+}
+
+.repo-card{
+  position:relative;
+  min-height: 200px;
+}
+.caption{
+  background-color: rgba(0,0,0,.75);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

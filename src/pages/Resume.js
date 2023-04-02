@@ -2,7 +2,7 @@
 
 function Resume(){
     return(
-        <div>
+        <div className='app-body'>
             This is my resume
         </div>
     );
